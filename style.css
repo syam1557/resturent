@@ -1,0 +1,896 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Noto+Sans+Malayalam:wght@100..900&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+              /* navbar           */
+.container{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(4, 41, 4);
+}
+.nav >a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: none;
+}
+.bari{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    right: 0;
+    left: 200px;
+    top: 20px;
+}
+.i{
+    color: white;
+    margin-top: 5px;
+}
+.i:hover{
+    background-color: green;
+}
+.icons{
+    display: none;
+    width: 35px;
+    height: 140px;
+    background-color: rgb(47, 20, 20);
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 5;
+    text-align: center;
+    font-size: 20px
+}
+.socialbar:hover .icons{
+    display: block;
+}
+.nav >a:hover{
+    color: greenyellow;
+}
+.menubar{
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+}
+.navbar{
+    width:200px;
+    background-color: rgb(4, 41, 4) ;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    padding: 10px;
+    z-index: 5;
+}
+.navli{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.nava{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif
+
+}
+.navli:hover{
+    background-color: green;
+    
+}
+.navbtn{
+    border: none;
+    width: 150px;
+    margin-left: 20px;
+    padding: 8px;
+    margin-top: 20px
+}
+.navbtn:hover{
+    background-color: green;
+    color: white;
+}
+.menubar:hover .navbar{
+    display: block;
+}
+.logo{
+    font-family:"pacifico",cursive;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+.logotxt1{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+/* main portion */
+.main{
+    position: relative;
+}
+.welcome{
+    margin-top: 20px;
+    background-image: url(https://www.shutterstock.com/image-photo/black-stone-cooking-background-spices-600nw-1914852676.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+    font-size: 20px;
+    /* z-index: -2; */
+}
+.divtext1{
+   padding: 30px; 
+}
+.form{
+    background-color: white;
+    width: 310px;
+    height: 520px;
+    box-shadow: 0 0 10px ;
+    margin-top: -80px;
+    margin-left: 60px;
+   border-radius: 10px;
+   font-family: sans-serif;
+   padding: 20px;
+   display: block;
+}
+label{
+    font-size: 20px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+.btnform{
+    padding: 10px;
+    background-color: rgb(33, 44, 33);
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin: 20px;
+}
+.btnform:hover{
+    background-color: green;
+}
+
+
+
+/* about portion  css starts*/
+.about{
+    width: 100%;
+    height: 500px;
+    background-color:white ;
+    font-family: sans-serif;
+    margin-top: 30px;
+    
+}
+.profile{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dQxWq7WP5SPY6rheBGsVFbZ9JH5i7z8QXg&s);
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+.chef{
+    width:200px;
+   
+}
+.txt2{
+   margin: 20px;
+   padding: 10px;
+}
+
+.sign{
+    width: 100px;
+    margin-left: 20px;
+}
+
+
+
+/* features css starts */
+.features{
+    width: 100%;
+    height:180vh;
+    background-color: rgb(237, 236, 235);
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    padding-top: 50px;
+}
+.box{
+   background-image:url(https://static01.nyt.com/images/2024/01/26/multimedia/LH-Ravioli-lgpf/LH-Ravioli-lgpf-superJumbo.jpg);
+   width: 350px;
+   height: 300px;
+   background-size:cover;
+   background-repeat: no-repeat;
+   margin-left: 15px;
+   margin-top: 20px;
+   border: 2px solid white;
+   border-radius: 5px;
+   position: relative;
+   overflow: hidden;
+}  
+.box2{
+    background-image: url(https://img.freepik.com/premium-photo/black-pasta-with-vegetables-black-plate-top-view-black-background-free-copy-space_187166-40668.jpg);
+}
+.box3{
+    background-image: url(https://www.cucinabyelena.com/wp-content/uploads/2022/06/0Z4A9588-e1653674595408.jpg);
+}
+.btnbox{
+    background-color: rgb(24, 168, 24);
+    padding: 8px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+.box:hover .boxbody{
+    left: 0;
+}
+.boxbody{
+    background-color: rgba(76, 6, 238, 0.089);
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 400px;
+    top: 0;
+    transition: .9s;
+    color: white;
+}
+.boxtxt{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+/* food css starts */
+.foods{
+    width: 100%;
+    height: 170vh;
+    padding: 15px;
+    padding-top: 50px;
+    text-align: center;
+}
+.card{
+    margin-top: 20px;
+    width: 100%;
+    height: 160vh;
+    background-color: rgba(146, 162, 162, 0.303);
+    border-radius: 10px 10px 0 0;
+    color: black;
+    text-align: start;
+    
+}
+li{
+    list-style-type: none;
+}
+.cardnav{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.271);
+    border-radius: 10px 10px 0 0;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.cardli{
+    margin-top: 15px;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+.cardli:hover{
+    color: white;
+}
+.cardtxt{
+    padding: 20px;
+}
+.txt1{
+    word-spacing: 10px;
+    margin-bottom: 50px;
+}
+
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imggallery{
+    width: 100%;
+}
+.imgbox{
+    transition: 1s;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+/* .imgbox:hover{
+    transform: scale(1.05);
+} */
+.zoom{
+   position: absolute;
+   padding: 0px;
+   border: none;
+   border-radius: 50px 50px 50px 50px;
+   width: 100px;
+   height:100px;
+   font-size: 20px;
+   font-weight: 900;
+   outline: 10px solid rgba(255, 255, 255, 0.527);
+   left: -120px;
+   transition: .3s;
+}
+.imgbox:hover .zoom{
+    left:150px
+}
+/* spec css starts */
+.spec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 50px;
+    height: 150vh;
+}
+.spec1{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.618);
+    font-family:monospace
+    
+}
+.speci{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.booknow{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://t3.ftcdn.net/jpg/03/46/14/30/360_F_346143059_HJSSw7TxF0C7SnZcrXYN2vR7DHHOCOxJ.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    padding-left: 40px;
+    display: flex;
+}
+.booktext{
+    text-align: center;
+    margin-left: 12%;
+}
+.book{
+    padding: 10px;
+    font-weight: 800;
+    margin-top: 20px;
+    border: none;
+}
+.book:hover{
+    background-color: rgb(5, 248, 5);
+    color: white;
+}
+.news{
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.news1{
+    margin-bottom: 70px;
+}
+.btnnews{
+    width: 100px;
+    padding: 8px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+.login{
+
+    height: 250px;
+    background-image:url(https://img.freepik.com/premium-photo/design-backdrop-restaurant-background_87720-76338.jpg) ;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.log{
+    width: 60%;
+    border: none;
+    padding: 10px;
+    display: block;
+    margin-left: 85px;
+}
+.log::placeholder{
+    font-size: 10px;
+}
+.sub{
+    width:60%;
+    padding: 10px;
+   color: white;
+   background-color: green;
+   border: none;
+   font-weight: 700;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(46, 48, 48);
+    text-align: center;
+    padding-top: 40px;
+}
+.footerli{
+ margin-top: 25px;
+ color: white;
+ font-family: sans-serif;
+ font-weight: 700;
+}
+.footerli:hover{
+    color: green;
+}
+.footericons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.social{
+    width:45px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.118);
+    /* box-shadow: 0 0 2px; */
+    border-radius: 50px;
+}
+.footeri{
+    font-size: 20px;
+     margin: 12px;
+    color: white;
+}
+.social:hover{
+    background-color: lightgreen;
+}
+.copy{
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+/* media query for tablet */
+
+@media screen and (min-width:426px) {
+
+    /* form */
+    .form{
+        width: 90%;
+        display: flex;
+        padding: 50px;
+        margin-left: 40px;
+        position: relative;
+        height: 200px;
+        top: 20px;
+    }
+    .bari{
+        left: 540px;
+    }
+    input{
+        border: none;
+        margin-top: 10px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        padding-right: 0;
+       
+    }
+    label{
+        font-size: 15px;
+    }
+    input::placeholder{
+         font-size: medium;
+    }
+    .phone{
+        position: absolute;
+        right: 280px;
+        top: 50px;
+        padding-left: 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.203) ;
+    }
+    .date{
+        position: absolute;
+        right: 190px;
+        top: 50px;
+        width: 100px;
+        padding-left: 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.203) ;
+    }
+    .name{
+        width: 100px;
+    }
+    .people{
+        position: absolute;
+        right:90px;
+        top: 50px;
+        width: 80px;
+        padding-left: 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.203) ;
+    }
+    .btnform{
+        margin-left: 5px;
+    }
+
+    /* about */
+    .profile{
+        width: 50%;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 50px;
+        background-size: cover;
+    }
+    .chef{
+        width: 400px;
+    }
+    /* features */
+    .features{
+        margin-top: 180px;
+        height: 130vh;
+
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /* food */
+    .cardnav{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .card{
+        height: 120vh;
+    }
+    .txt1{
+        margin-bottom: 20px;
+    }
+    .foods{
+        height: 130vh;
+    }
+    /* gallery */
+    
+    .gallery{
+        margin-top: -10px;
+        /* display: grid; */
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* height: 500px; */
+        /* grid-template-columns: auto auto auto; */
+        /* grid-row: 100px 150px; */
+       
+    }
+    .imgbox{
+        width:255px;
+    }
+    .box4,.box5{
+        width: 50%;
+    }
+    .imgbox:hover .zoom{
+        left:90px
+    }
+    .imggallery{
+        width: 100%;
+        height: 100%;
+    }
+    .zoom{
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
+    /* spec  */
+    .spec{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        height: 100vh;
+    }
+    
+    /* book */
+    .booktext{
+        margin-left: 180px;
+    }
+    .booktext > h2{
+        display: inline-block;
+    }
+    .book{
+        display: block;
+        margin-left: 120px;
+    }
+    /* news */
+    .news{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .news1{
+        width: 300px;
+    }
+    .news2{
+        width: 300px;
+    }
+    .login >h2{
+        display: inline-block;
+        margin-bottom: 50px;
+    
+    }
+    .log{
+        display: inline-block;
+        width: 200px;
+        padding: 15px;
+        margin-left: 20px;
+
+    }
+    .sub{
+        width: 150px;
+        padding: 15px;
+    }
+    /* footer */
+    .footerli{
+        border-right: 1px solid rgb(252, 250, 250);
+        padding:10px;
+        font-weight: 500;
+    }
+    .aboutli{
+        border: none;
+    }
+    .footernav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer{
+        height: 350px;
+    }
+}
+
+/* media query for laptop */
+@media screen  and (min-width:769px){
+    .container{
+       position: fixed;
+       top: 0;
+       z-index: 10;
+       height: 80px;
+    }
+    .menubar{
+        position: absolute;
+        right: 20px;
+    }
+    .navbar{
+       position: absolute;
+       left: -150px;
+       top: 28px;
+    }
+    .nav{
+        display: inline-block;
+        margin: auto;
+
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .nav>a{
+        font-size: 15px;
+    }
+    .icons{
+        position: absolute;
+        right: 270px;
+        top: 25px;
+        width: 200px;
+        height: 0;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .i:hover{
+        background-color: transparent;
+    }
+    .i{
+        display: inline-block;
+        color: rgba(254, 253, 253, 0.234);
+    }
+    .welcome{
+        height: 100vh;
+        /* padding-top: 100px; */
+        background-attachment: fixed;
+    }
+    .divtext1{
+        margin-top: 200px;
+        font-size: 30px;
+    }
+    .divtext1 >p{
+        margin-top: 50px;
+
+    }
+    .form{
+        width: 70%;
+        height: 200px;
+       margin-left:200px;
+       position: relative;
+       padding: 50px;
+    }
+    .phone{
+        position: absolute;
+        left:230px;
+    }
+    .date{
+        position: absolute;
+        left: 420px;
+    }
+    .people{
+        position: absolute;
+        left: 560px;
+    }
+    .btnform{
+        position: absolute;
+        right: 50px;
+        top: 45px;
+        padding: 16px;
+    }
+    .about{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .txt2{
+        width: 400px;
+        margin-top: 100px;
+    }
+    .profile{
+        width:35% ;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .features{
+        height: 70vh;
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .foods >h1{
+        font-size: 40px;
+    }
+    .foods{
+        text-align: center;
+    }
+    .card{
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .cardtxt{
+        padding-left: 100px;
+        padding-right:100px ;
+    }
+    .gallery{
+        display: flex;
+        height: 110vh;
+        justify-content: center;
+    }
+    .zoom{
+        width: 80px;
+        height: 80px;
+    }
+    .imgbox:hover .zoom{
+        left:200px
+    }
+    .imgbox{
+        width: 500px;
+    }
+    .box4,.box5{
+        width: 50%;
+    }
+    .box5:hover .zoom{
+        left:350px
+    }
+    .box4:hover .zoom{
+        left:340px
+    }
+    .spec{
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+    }
+    .spec1{
+        width: 20%;
+    }
+    .booknow{
+        height: 500px;
+    }
+    .booktext{
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    .book{
+        padding: 20px;
+        margin-left: 250px;
+    }
+    .news{
+        height: 300px;
+    }
+    .login{
+        height: 400px;
+        text-align: center;
+    }
+    .login >h2{
+        margin-top: 70px;
+        font-size: 35px;
+    }
+    .log{
+        width: 350px;
+    }
+    .sub{
+        width: 250px;
+    }
+    .sub:hover{
+        background-color: black;
+    }
+    .footernav{
+        display: flex;
+        justify-content: center;
+    }
+    .footericons{
+        display: flex;
+        justify-content: center;
+    }
+    .social{
+        margin-left: 20px;
+    }
+
+}
+
+
